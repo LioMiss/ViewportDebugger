@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ViewportDebugger",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Leo",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EngineVersion": "4.26-5.5.0",
+    "CompatibleEngineVersion": "4.26-5.5.0",
+	"Modules": [
+		{
+			"Name": "ViewportDebugger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": ["Win64"],
+			"PlatformAllowList": ["Win64"]
+		},
+		{
+			"Name": "ViewportDebugEditor",
+			"Type": "EditorNoCommandlet",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": ["Win64"],
+			"PlatformAllowList": ["Win64"]
+		}
+	]
+}
